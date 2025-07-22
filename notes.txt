@@ -1,0 +1,10 @@
+Transfer learning - ML technique where knowledge gained from solving one task is applied to a different but related task.
+
+Firstly model is trained on a large dataset for a specific task
+Next, pre-trained model is used as a starting point for a new, related task
+Further, the model is trained on a smaller dataset specific to the target size, potentially adjusting some or all of it's layers
+
+It is commonly used in Image Classification or NLP
+
+Frozen layer - pre-trained layer which is blocked during training on the new dataset. The weights are not updated.
+Trainable layer - those where weights are updated during the training
